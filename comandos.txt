@@ -1,0 +1,28 @@
+--Comandos básicos de GitHub
+git clone [url-repositorio-git-remoto]
+git add .
+git commit -m "comentario de commit"
+git pull origin master 
+git push origin master
+
+git remote -v
+git config --global user.email "you@example.com"
+git config --global user.name "Tu Nombre"
+git branch
+git branch [nombreRama]
+git checkout [nombreRama]
+git checkout -b [nuevaRama]
+git branch -d [nombreRama]
+git push [remoto] --delete [nombreRama]
+git branch -m [rama][nuevoNombre]
+git branch -m [nuevoNombre]
+
+git merge [ramaDestino] [ramaOrigen]
+
+git init
+
+git flow init 
+git flow feature start [ramaFeature]
+git flow finish [ramaFeature]
+git merge [nombreRama] 
+git cherry-pick [Commit]
